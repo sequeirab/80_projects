@@ -1,0 +1,76 @@
+.border {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.border__box {
+  border-radius: 0 0 0 0;
+  width: 20rem;
+  height: 20rem;
+  border: 3px solid black;
+}
+
+.border__top-left {
+  position: absolute;
+  top: 0;
+  left: 19.875rem;
+  width: 2rem;
+  height: auto;
+}
+
+.border__top-left--input {
+  width: 2rem;
+}
+
+.border__top-right {
+  position: absolute;
+  top: 0;
+  right: 20.4375rem;
+  width: 2rem;
+  height: auto;
+}
+
+.border__top-right--input {
+  width: 2rem;
+}
+
+.border__bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 19.875rem;
+  width: 2rem;
+  height: auto;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.border__bottom-left--input {
+  width: 2rem;
+}
+
+.border__bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 20.4375rem;
+  width: 2rem;
+  height: auto;
+}
+
+.border__bottom-right--input {
+  width: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
