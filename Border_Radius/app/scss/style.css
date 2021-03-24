@@ -73,4 +73,15 @@
 .title {
   text-align: center;
 }
+
+#border-box {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#output {
+  border-radius: 0 0 0 0;
+}
 /*# sourceMappingURL=style.css.map */
