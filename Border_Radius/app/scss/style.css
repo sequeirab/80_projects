@@ -84,4 +84,8 @@
 #output {
   border-radius: 0 0 0 0;
 }
+
+.none {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
